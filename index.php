@@ -2,7 +2,7 @@
 
 <head>
 	<title>Jaxrock Voting Booth</title>
-	<link rel="stylesheet" type="text/css" href="css/poll.css"/>
+	<link rel="stylesheet" type="text/css" href="poll.css"/>
 	<script language="javascript">
 	     function setVote(voteName)
 	     {
