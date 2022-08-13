@@ -1,7 +1,7 @@
 <?php 
   // Load the results xml file
   $doc = new DOMDocument();
-  $doc->load("xml/results.xml");
+  $doc->load("results.xml");
   $root = $doc->getElementsByTagName("results")->item(0);
   $question = $root->getAttribute("question");
   echo "<table id=\"tblPoll\" align=\"center\"><tr><td class=\"question\">$question</td></tr>";
