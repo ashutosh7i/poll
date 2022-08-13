@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<results question="Who is your favorite entry?">
+	<pollitem>
+		<entryname>Entry 1</entryname>
+		<votes>1</votes>
+	</pollitem>
+	<pollitem>
+		<entryname>Entry 2</entryname>
+		<votes>1</votes>
+	</pollitem>
+	<pollitem>
+		<entryname>Entry 3</entryname>
+		<votes>1</votes>
+	</pollitem>
+	<pollitem>
+		<entryname>Entry 4</entryname>
+		<votes>1</votes>
+	</pollitem>
+	<pollitem>
+		<entryname>Entry 5</entryname>
+		<votes>1</votes>
+	</pollitem>
+</results>

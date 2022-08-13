@@ -1,0 +1,145 @@
+/* global styles */
+
+body{
+     font-family: Tahoma;
+     font-size: 12px;
+     color: #47484A;
+}
+
+/* poll.php */
+
+#tblMain
+{
+	width: 500px;
+	padding: 5px;
+}
+
+#tblMain .button{
+	text-align: center;
+    padding: 5px;
+}
+
+#btnVote{
+     border: solid 1px Black;
+     background-color: #C4D6EA;
+}
+
+#tblMain .header
+{
+	text-align: center;
+}
+
+#tblMain .footer
+{
+	border: solid 1px #47484A;
+	text-align: center;
+	padding: 4px;
+	background-color: #940F04;
+}
+
+.footer a, a:visited
+{
+	color: Maroon;
+	text-decoration: none;
+}
+
+.footer a:hover
+{
+	color: Red;
+	text-decoration: none;
+	border-bottom: dashed 1px Maroon;
+}
+
+/* loadpoll.php */
+
+#tblPoll
+{
+	width: 500px;
+	font-family: Tahoma;
+	font-size: 12px;
+	border: solid 1px #47484A;
+	background-color: #FFFFFF;
+}
+
+#tblPoll .question
+{
+	border: solid 1px #47484A;
+	padding: 10px;
+	text-align: center;
+	background-color: #E5E6E7;
+}
+
+#tblPoll .pollitem
+{
+	padding: 10px;
+	font-weight: bold;
+}
+
+#tblPoll .radiobutton
+{
+	vertical-align: middle;
+}
+
+/* savevote.php */
+
+#tblResults
+{
+	width: 500px;
+	font-family: Tahoma;
+	font-size: 12px;
+	border: solid 1px #47484A;
+}
+
+#tblResults .message
+{
+	border: solid 1px #47484A;
+	padding: 10px;
+	text-align: center;
+	background-color: #E5E6E7;
+}
+
+#tblResults .polls
+{
+	text-align: right;
+	padding-right: 5px;
+	font-weight: bold;
+	color: #47484A;
+}
+
+#tblResults .resultbar
+{
+	padding: 5px;
+}
+
+#tblResults .bar
+{
+	color: #000000;
+	text-align: center;
+	padding: 4px;
+	border: solid 1px #47484A;
+}
+
+/* results.php */
+
+#tblResultsMain{
+}
+
+#tblResultsMain .header
+{
+	text-align: center;
+}
+
+#tblResultsMain .footer
+{
+	text-align: center;
+}
+
+#tblResultsMain .total
+{
+	padding: 12px;
+	text-align: center;
+}
+
+
+
+
