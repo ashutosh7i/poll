@@ -2,7 +2,7 @@
 
 <head>
 	<title>PHPoll Results</title>
-	<link rel="stylesheet" type="text/css" href="css/poll.css"/>
+	<link rel="stylesheet" type="text/css" href="poll.css"/>
 </head>
 
 <body>
