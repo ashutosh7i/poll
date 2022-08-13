@@ -44,7 +44,7 @@
 	     else
 	     {
 		$lastvisits->item(0)->nodeValue = $today;
-		$doc->save("xml/addresses.xml");
+		$doc->save("addresses.xml");
 	     }
 	     break;
 	}
@@ -78,7 +78,7 @@
 
 	     $newAddy->appendChild($newAddressElement);
 
-	     $doc->save("xml/addresses.xml");
+	     $doc->save("addresses.xml");
   	}
 	else
 	{
@@ -100,7 +100,7 @@
 		     break;
 		}
   	}
-	$doc->save("xml/results.xml");
+	$doc->save("results.xml");
     }
   }
   else
@@ -110,7 +110,7 @@
 
   // Get max vote count
   $doc = new DOMDocument();
-  $doc->load("xml/results.xml");
+  $doc->load("results.xml");
   $maxvotes = 0;
   $pollitems = $doc->getElementsByTagName("pollitem");
   foreach( $pollitems as $pollitem )
@@ -121,7 +121,7 @@
   }
   // Generate the results table
   $doc = new DOMDocument();
-  $doc->load("xml/results.xml");
+  $doc->load("results.xml");
   $pollitems = $doc->getElementsByTagName("pollitem");
   foreach( $pollitems as $pollitem )
   {
